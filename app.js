@@ -29,6 +29,7 @@ searchform.addEventListener("submit", function (ev) {
           </div>
           
         `;
+        characterDetails.innerHTML = "";
       }
     }) //each character
     .catch(function (err) {
@@ -147,11 +148,11 @@ movieList.addEventListener("click", (ev) => {
 }); // results click handler
 // Array of Harry Potter images
 const harryPotterImages = [
-  "pic/pic6.jpg",
-  "pic/pic7.jpg",
-  "pic/pic8.jpg",
-  "pic/pic9.jpg",
-  "pic/pic10.jpg",
+  "pic/pic11.jpg",
+  "pic/pic2.jpg",
+  "pic/pic3.jpg",
+  "pic/pic4.jpg",
+  "pic/pic5.jpg",
 ];
 function changeImage() {
   // Select a random image URL
